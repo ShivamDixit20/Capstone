@@ -1,288 +1,449 @@
-body {
-    background-color: #FDFCFD;
-    margin: 0;
-    font-family: 'Montagu Slab', serif;
+
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing:border-box;
 }
 
-.navbar {
-    padding: 1.11vw 0; 
-    margin: 0 3.33vw;  
-    border-bottom: 0.07vw solid black;  
-}
-
-.syne-navdiv{
+body{
+    background-color:#FDFCFD;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:0 48px;
+}
+
+.main{
+    background-color: #FDFCFD;
+    height:88px;
+    width:1344px;
+    padding:20px 0px;
+    display:flex;
+    justify-content:space-between;
+}
+.main2{
+    height:28px;
+    width:181px;
+    gap:12px;
+    font-weight: 600px;
+    font-size:42px;
+    font-family: serif ;
+    justify-content: center;
+    align-items: center;
+    line-height: 42PX;
+    color:#281B28;
+    
+
+}
+.main3{
+    height:32px;
+    width: 512px;
+
+    display:flex;
     align-items: center;
     justify-content: space-between;
 }
+.home{
+    width:80px;
+    height:32px;
+    font-family:serif;
+    font-weight:400;
+    font-size:28px;
+    line-height: 32px;
+    color:#281B28;
+    
 
-.logo {
-    font-family: "Source Serif 4", serif;
-    text-decoration: none;
-    font-size: 2.92vw;  
-    font-weight: 800;
 }
+.project{
+    width:106px;
+    height:32px;
+    font-family:serif;
+    font-weight:400;
+    font-size:28px;
+    line-height: 32px;
+    color:#281B28;
 
-.nav-links {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1.04vw; 
-}
-
-.nav-links li {
-    list-style-type: none;
-}
-
-.nav-links a {
-    font-family: 'Roboto Serif', serif;
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 1.39vw;  
-    color: black;
-}
-
-.hero {
-    font-family: 'Roboto Serif';
-    text-align: center;
-    font-weight: 700;
-    font-size: 4.86vw;  
-    line-height: 5.56vw; 
-    padding: 3.33vw;  
-}
-
-#img1 {
-    border-radius: 1.94vw;  
-    display: block;
-    width: 95%;
-    margin: 0 auto;
-    object-fit: cover;
-}
-
-.gallery-container{
-    margin-top:96px;
-    display: flex;
-    flex-wrap:wrap;
-    justify-content: center;
-    gap:2vw;
- }
-.gallery-pic{
-    max-width: 100%;
-    width:350px;
-    height: 230px;
-    gap: 1px;
-    border: 1px;
-    color: #1B221B;
-}
-.a{
-    font-family: 'Public Sans',serif;
-}
-.b{
-    font-family: 'Public Sans',serif;
-    color:rgba(41, 25, 41, 0.62);
-}   
-.main-area {
-    padding: 6.67vw 15vw;  
-}
-
-.main-text {
-    margin-left: 30vw;
-    font-size: 1.75vw;  
-    width:52vw;
-    text-align: left;
-    font-family: 'Plus Jakarta Sans',sans-serif;
-}
-.mess{
-    text-align: center;
-    margin-top:8vw;
-    font-weight: 400;
-    font-size: 5.02vh;
-    font-family: "Roboto Serif",serif;
 }
 .contact{
-    margin-top:15vh;
-    margin-left:10vh;
-    font-weight: 900;
-    font-size: 3vh;
-    font-family: "Roboto Serif",serif;
+    width:104px;
+    height:32px;
+    font-family:serif;
+    font-weight:400;
+    font-size:28px;
+    line-height: 32px;
+    color:#281B28;
+
 }
-.end-mess{
-    text-align: left;
-    margin-top:7vh;
-    margin-left:10vh;
-    font-size: 3vh;
-    font-family: "Public Sans",serif;
+.body{
+    padding:48px 0;
+    width:1344px;
+    height:3393px;
+
+
+}
+.heading{
+   padding:96px 0;
+    gap:52px;
+    width:1344px;
+    height:1156px;
+    border-bottom: 1.5px solid #FDFCFD;
+    
+    
+}
+.heading h1{
+    animation: leftswing 2s ease-in 1;
+    
+}
+@keyframes leftswing{
+    0%{
+        transform: translate(-300px);
+    }
+    100%{
+        transform: translate(0px);
+    }
+}
+h1{
+    font-family: serif;
+    text-align: center;
+    font-size:120px;
+    margin-bottom:52px;
+    line-height:120px;
+    font-weight:700;
+    height:240;
+    width:1344px;
+    color:#281B28;
+}
+.image1  img{
+    border-radius: 28px;
+    width:1344px;
+    height:672px;
+    border:1.5px solid 000000;
+}
+.row1{
+    display:flex;
+    height:437px;
+    padding:52px 0;
+    gap:52px;
+    background-color: #FDFCFD;
+}
+
+
+.row2{
+    display:flex;
+    
+    padding:0;
+    gap:52px;
+    background-color: #FDFCFD;
+}
+
+ 
+
+.row3{
+    display:flex;
+    height:437px;
+    padding:52px 0;
+    gap:52px;
+    background-color: #FDFCFD;
+}
+.pic1 img{
+    width:413.33px;
+    height:275px;
+    gap:10px;
+    border-radius:16px;
 
 }
 
-footer {
-    display: flex;
-    line-height: 1.94vw; 
-    padding: 0.69vw; 
+.pic2 img{
+    width:413.33px;
+    height:275px;
+    gap:10px;
+    border-radius:16px;
+
+    
+}
+
+.pic3 img{
+    width:413.33px;
+    height:275px;
+    gap:10px;
+    border-radius:16px;
+
+}
+img:hover{
+    box-shadow: 5px 5px 2px rgb(173, 223, 148);
+}
+   
+.welcome{
+    display:flex;
+    width:1344px;
+    height:258px;
+    padding:52px 0;
+    gap:52px;
+
+}
+.empty{
+    width:646px;
+    height:154px;
+
+
+}
+.empty p{
+    font-size:24px;
+    font-weight: 200;
+    line-height:32px;
+    font-family: sans-serif;
+    color:#281B28;
+
+}
+.last{
+    display:flex;
+    width:1344px;
+    height:452px;
+    padding:96px 0;
+    align-items: center;
+    justify-content: center;
+}
+.middle{
+    width:900px;
+    height:260px;
+    
+
+}
+.middle p{
+    font-family: serif;
+    font-weight: 200;
+    font-size:48px;
+    line-height:52px;
+    color:#281B28;
+    text-align: center;
+
+}
+
+.end{
+    display:flex;
+    flex-direction: column;
+    height:224px;
+    width:1344px;
+    padding:52px 0;
+    gap:32px;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.contact-me{
+    width:720px;
+    height:32px;
+    font-weight:700;
+    font-size: 28px;
+    line-height: 32px;
+    font-family: serif;
+    color:#281B28;
+}
+.statement{
+    width:720px;
+    height:56px;
+    font-weight:400;
+    font-size:17px;
+    font-family:sans-serif;
+    line-height: 28px;
+    color:#281B28;
+}
+.footer{
+    width:1344px;
+    height:180px;
+    padding:96px 32px 0 0;
+    display:flex;
     justify-content: space-between;
 }
-
-footer p {
-    font-family: "Roboto Sans",serif;
-    text-align: left;
-    font-weight: 600;
-    font-size: 1.39vw; 
-    color:rgba(41, 25, 41, 0.62);
+.at{
+    height:32px;
+    width:285px;
+    font-weight: 400;
+    font-size:28px;
+    line-height: 32px;
+    color:#2919299E;
 }
 
-#butt {
-    background-color: transparent;
-    font-family: 'Roboto Sans', serif;
-    font-weight: 500;
-    border-radius: 0.56vw; 
-    font-size: 1.11vw; 
-    cursor: pointer;
-    border: 0.07vw solid rgba(110, 73, 110, 0.2); 
-    height: 2.5vw; 
-    line-height: 1.94vw; 
+.follow{
+    width:160px;
+    height:52px;
+    border:1.5px solid #6E496E33;
+    border-radius:16px;
+    padding:14px 32px;
+    font-weight:500;
+    font-size:20px;
+    line-height: 24px;
+    color:#281B28;
+}
+.follow:hover{
+    background-color: black;
+    color:white;
+}
+img {
+    max-width: 100%;
+    height: auto;
 }
 
-#butt:hover {
-    background-color: #f2f2f2;
-}
-@media (max-width: 465px) {
-    .navbar {
-        padding: 0.1vw 2vw; 
-        margin: 0 3.33vw; 
-        border-bottom: 0.07vw solid black; 
+@media screen and (max-width: 1400px) {
+    .main, .body, .heading, .welcome, .last, .end, .footer {
+        width: 100%;
+        max-width: 1200px;
     }
     
-    
-    .logo { 
-        font-size: 3.92vw;  
-    }
-    .nav-links li a{
-        font-size: 2.5vw;
-    }
-    
-    .hero {  
-        font-size: 5.86vw;  
-        line-height: 5.56vw; 
-        padding: 3.33vw;  
-    }
-    
-    #img1 {
-        border-radius: 1.94vw; 
-        display: block;
-        width: 95%;
-        margin: 0 auto;
-        height: 28vh;
-    }
-    .pro-text{
-        font-size: 5vw;
-        margin-top: 3vw;
-        margin-bottom: 2vw;
-    }
-    .Projects div{
-        width: 95%;
-    }
-    .view-button { 
-        line-height: 1.39vw;
-        font-size: 2.97vw;  
-        font-weight: 500; 
-        padding: 2.56vw 3.83vw; 
-        border-radius: 1.5vw; 
-    }
-    .main-area {
+    .body {
         height: auto;
+    }
+    
+    .heading {
+        height: auto;
+    }
+    
+    h1 {
         width: 100%;
-        padding: 8.67vw 1.67vw; 
+        font-size: 96px;
+        line-height: 100px;
     }
-    .main-area h3{
-        font-size: 3vw;
-        line-height: 3vw;
-        padding-left: 2vw;
+}
+@media screen and (max-width: 1024px) {
+    body {
+        padding: 0 24px;
+    }
+    
+    h1 {
+        font-size: 72px;
+        line-height: 82px;
+    }
+    
+    .row1, .row2, .row3 {
+        gap: 24px;
+    }
+    
+    .pic1 img, .pic2 img, .pic3 img {
         width: 100%;
     }
-    .contact {
-        padding: 6.67vw 0;  
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-left: auto;
-        margin-right: auto;
+    
+    .empty {
+        width: 100%;
     }
     
-    .mess {
-        text-align: left;
-        padding-right: 3vw;
-        font-weight: 400;
-        font-size: 2vw;  
-        line-height: 2.22vw;  
+    .middle {
+        width: 100%;
     }
     
-    .end {
-        padding: 6.67vw 1.67vw;  
-        text-align: center;
-    } 
-    label {
-        font-size: 3.36vw;  
-        font-weight: 700;
-    }
-    
-    #email { 
-        max-width: 33.78vw;  
-        height: 3vw;   
-        font-size: 2.04vw;  
-        line-height: 1.39vw; 
-        padding: 1.3vw 0.83vw;   
-    }
-    
-    #subs {
-        height: 5.5vw; 
-        background-color: #026600;
-        font-family: 'Spline Sans Mono', monospace;
-        font-size: 2.04vw; 
-        font-weight: 500;
-        padding: 2vw 3.83vw 4vw; 
-        border-radius: 1.2vw; 
-        margin-left: 0.56vw; 
-    }
-    
-    
-    #fb,#insta,#X{
-        margin-top: 3vw;
-        padding-top: 2.78vw; 
-        width: 3.78vw; 
-        height: 3.78vw; 
-    }
-    
-    footer {
-        display: flex;
-        line-height: 1.94vw;
-        padding: 0.69vw 3vw;  
-        justify-content: space-between;
-        align-items: center;
-    }
-    
-    footer p {
-        text-align: left;
-        font-weight: 600;
-        font-size: 2.39vw;  
-    }
-    
-    #butt { 
-        border-radius: 0.56vw;  
-        font-size: 2.11vw;  
-        
-        line-height: 1.94vw; 
-        padding: 1vw 2vw 3vw;
+    .contact-me, .statement {
+        width: 90%;
     }
 }
 
-@media (max-width: 768px) {
-    .main-area { 
-        width: 100%;
-        padding: 8.67vw 1.67vw; 
+@media screen and (max-width: 768px) {
+    .main {
+        height: auto;
+        padding: 16px 0;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
     }
-    .main-area h3{
-        font-size: 3vw;
-        line-height: 3vw;
-        padding-left: 2vw;
+    
+    .main3 {
         width: 100%;
+        justify-content: center;
+        gap: 32px;
+    }
+    
+    h1 {
+        font-size: 56px;
+        line-height: 64px;
+    }
+    
+    .row1, .row2, .row3 {
+        flex-direction: column;
+        height: auto;
+        padding: 24px 0;
+    }
+    
+    .pic1, .pic2, .pic3 {
+        width: 100%;
+    }
+    
+    .welcome {
+        flex-direction: column;
+        height: auto;
+    }
+    
+    .middle p {
+        font-size: 36px;
+        line-height: 44px;
+    }
+}
+@media screen and (max-width: 480px) {
+    body {
+        padding: 0 16px;
+    }
+    
+    .main2 {
+        font-size: 32px;
+        line-height: 36px;
+    }
+    
+    .main3 {
+        flex-direction: column;
+        height: auto;
+        gap: 16px;
+        align-items: center;
+    }
+    
+    .home, .project, .contact {
+        font-size: 24px;
+    }
+    
+    h1 {
+        font-size: 40px;
+        line-height: 48px;
+        padding: 0 16px;
+    }
+    
+    .heading {
+        padding: 48px 0;
+    }
+    
+    .empty p {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    
+    .middle p {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+        padding: 48px 16px;
+        height: auto;
+        text-align: center;
+    }
+    
+    .follow {
+        width: 140px;
+        padding: 10px 24px;
+    }
+}
+@media screen and (max-width: 360px) {
+    h1 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    
+    .empty p {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    
+    .middle p {
+        font-size: 24px;
+        line-height: 32px;
     }
 }
