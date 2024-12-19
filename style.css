@@ -21,6 +21,22 @@ body{
     display:flex;
     justify-content:space-between;
 }
+
+.main:hover{
+    
+    background-color: rgb(63, 105, 63);
+    border-radius: 25px;
+    padding-left: 20px;
+    
+    margin-top:15px;
+}
+/* .main2:hover{
+    color: #FDFCFD;
+}
+.main3:hover{
+    color: antiquewhite;
+} */
+
 .main2{
     height:28px;
     width:181px;
@@ -100,6 +116,7 @@ h1{
     height:240;
     width:1344px;
     color:#281B28;
+    
 }
 .image1  img{
     border-radius: 28px;
@@ -140,6 +157,10 @@ h1{
     border-radius:16px;
 
 }
+/* .pic1 img:hover{
+    transition:all 1s ease;
+    
+} */
 .pic2 img{
     width:413.33px;
     height:275px;
@@ -259,4 +280,8 @@ h1{
     font-size:20px;
     line-height: 24px;
     color:#281B28;
+}
+.follow:hover {
+    background-color: black;
+    color:white;
 }
